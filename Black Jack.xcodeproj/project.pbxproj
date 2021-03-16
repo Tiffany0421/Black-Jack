@@ -13,6 +13,7 @@
 		B19935C0260055450007ED4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19935BE260055450007ED4C /* Main.storyboard */; };
 		B19935C2260055470007ED4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19935C1260055470007ED4C /* Assets.xcassets */; };
 		B19935C5260055470007ED4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19935C3260055470007ED4C /* LaunchScreen.storyboard */; };
+		B19935D02600771C0007ED4C /* PokerCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19935CF2600771C0007ED4C /* PokerCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B19935C1260055470007ED4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19935C4260055470007ED4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B19935C6260055470007ED4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19935CF2600771C0007ED4C /* PokerCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				B19935B8260055450007ED4C /* AppDelegate.swift */,
 				B19935BA260055450007ED4C /* SceneDelegate.swift */,
-				B19935BC260055450007ED4C /* ViewController.swift */,
-				B19935BE260055450007ED4C /* Main.storyboard */,
+				B19935CD260076970007ED4C /* Model */,
+				B19935CC260076870007ED4C /* Controller */,
+				B19935CE260076A20007ED4C /* View */,
 				B19935C1260055470007ED4C /* Assets.xcassets */,
 				B19935C3260055470007ED4C /* LaunchScreen.storyboard */,
 				B19935C6260055470007ED4C /* Info.plist */,
 			);
 			path = "Black Jack";
+			sourceTree = "<group>";
+		};
+		B19935CC260076870007ED4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B19935BC260055450007ED4C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B19935CD260076970007ED4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19935CF2600771C0007ED4C /* PokerCards.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B19935CE260076A20007ED4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B19935BE260055450007ED4C /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19935BD260055450007ED4C /* ViewController.swift in Sources */,
+				B19935D02600771C0007ED4C /* PokerCards.swift in Sources */,
 				B19935B9260055450007ED4C /* AppDelegate.swift in Sources */,
 				B19935BB260055450007ED4C /* SceneDelegate.swift in Sources */,
 			);
